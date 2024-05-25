@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { Context } from "../store/appContext";
-import CardDoctor from "./CardDoctor";
+import { Context } from "../store/appContext.js";
+import CardDoctor from "./CardDoctor.js";
 import { useNavigate } from "react-router-dom";
 import "./../../styles/ListDoctors.css"
 

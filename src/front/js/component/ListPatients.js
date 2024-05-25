@@ -1,7 +1,7 @@
 
 import React, { useContext, useEffect } from "react";
-import { Context } from "../store/appContext";
-import CardPatient from "./CardPatient";
+import { Context } from "../store/appContext.js";
+import CardPatient from "./CardPatient.js";
 
 const ListPatients = () => {
     const { store, actions } = useContext(Context);

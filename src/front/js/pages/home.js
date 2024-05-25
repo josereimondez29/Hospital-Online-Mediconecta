@@ -1,9 +1,9 @@
 import React from "react";
-import Especialidades from "../component/Especialidades";
-import ListDoctors from "../component/ListDoctors";
+import Especialidades from "../component/Especialidades.js";
+import ListDoctors from "../component/ListDoctors.js";
 import "./../../styles/style.css"
-import Prices from "../component/Prices";
-import { Contact } from "../pages/Contact";
+import Prices from "../component/Prices.js";
+import { Contact } from "../pages/Contact.js";
 
 export const Home = () => {
   return (

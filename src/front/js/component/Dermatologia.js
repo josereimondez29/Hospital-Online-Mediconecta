@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import "./../../styles/Dermatologia.css";
 import dermatologia from "../../img/dermatologia.jpg";
-import { Context } from '../store/appContext';
-import CardDoctor from "./CardDoctor";
+import { Context } from '../store/appContext.js';
+import CardDoctor from "./CardDoctor.js";
 
 const Dermatologia = () => {
   const { store, actions } = useContext(Context);

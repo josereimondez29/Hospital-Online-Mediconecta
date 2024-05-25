@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.js";
 export const EditDoctor = () => {
     const { store, actions } = useContext(Context);
     const { id } = useParams();

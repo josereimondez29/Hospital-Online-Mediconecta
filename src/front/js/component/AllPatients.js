@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import CardPatient from "./CardPatient";
-import { Context } from "../store/appContext";
+import CardPatient from "./CardPatient.js";
+import { Context } from "../store/appContext.js";
 
 export const AllPatients = () => {
     const { store, actions } = useContext(Context);

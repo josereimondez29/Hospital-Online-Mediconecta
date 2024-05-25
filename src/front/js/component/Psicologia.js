@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import "./../../styles/Psicologia.css"
 import psicologia from "../../img/psicologia.jpg"
-import { Context } from '../store/appContext';
-import CardDoctor from "./CardDoctor";
+import { Context } from '../store/appContext.js';
+import CardDoctor from "./CardDoctor.js";
 
 const Psicologia = () => {
   const { store, actions } = useContext(Context);

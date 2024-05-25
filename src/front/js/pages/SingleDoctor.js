@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.js";
 import "./../../styles/singleDoctor.css"; // Importa tu archivo CSS para los estilos personalizados
 
 export const SingleDoctor = (props) => {

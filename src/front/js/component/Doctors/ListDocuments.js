@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import LoadAttachment from "../AttachmentFile/LoadAttachment";
-import { Context } from "../../store/appContext";
+import { Context } from "../../store/appContext.js";
 const ListDocument = () => {
     const [selectedPatientId, setSelectedPatientId] = useState(""); // Estado para almacenar el ID del paciente seleccionado
     const { store, actions } = useContext(Context);

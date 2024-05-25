@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './../../styles/register.css';
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.js";
 
 export const Register = () => {
   const [email, setEmail] = useState('');

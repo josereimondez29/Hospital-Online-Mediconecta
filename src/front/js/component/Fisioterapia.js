@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import "./../../styles/Fisioterapia.css";
 import fisioterapia from "../../img/fisioterapiaa.jpg";
-import { Context } from '../store/appContext';
-import CardDoctor from "./CardDoctor";
+import { Context } from '../store/appContext.js';
+import CardDoctor from "./CardDoctor.js";
 
 const Fisioterapia = () => {
   const { store, actions } = useContext(Context);

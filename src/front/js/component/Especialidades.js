@@ -1,5 +1,5 @@
 import React from 'react';
-import Especialidad from './Especialidad';
+import Especialidad from './Especialidad.js';
 import medicina_general_dos from "../../img/Medicina-general-dos.jpg";
 import image_3 from "../../img/image_3.jpg"
 import dermatologia from "../../img/dermatologia.jpg"

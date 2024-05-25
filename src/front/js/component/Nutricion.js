@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import "./../../styles/Nutricion.css";
 import nutricion from "../../img/nutricionn.jpg";
-import { Context } from '../store/appContext';
-import CardDoctor from "./CardDoctor";
+import { Context } from '../store/appContext.js';
+import CardDoctor from "./CardDoctor.js";
 
 const Nutricion = () => {
   const { store, actions } = useContext(Context);

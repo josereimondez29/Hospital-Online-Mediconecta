@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
-import MedicalAppointmentCardDoctor from "./MedicalAppoinmentCardDoctor";
-import { Context } from '../../store/appContext';
+import MedicalAppointmentCardDoctor from "./MedicalAppoinmentCardDoctor.js";
+import { Context } from '../../store/appContext.js';
 
 const ListAppointmentDoctor = ({}) => {
     const [appointments, setAppointments] = useState([]); // Define setAppointments como parte del estado

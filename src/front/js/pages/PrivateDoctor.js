@@ -1,10 +1,10 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Link, useNavigate } from 'react-router-dom';
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.js";
 import PropTypes from "prop-types";
-import GetProfilePicture from "../component/ProfilePicture/GetProfilePicture";
-import ListDocument from "../component/Doctors/ListDocument";
-import ListAppointmentDoctor from "../component/Doctors/ListAppointmentDoctor";
+import GetProfilePicture from "../component/ProfilePicture/GetProfilePicture.js";
+import ListDocument from "../component/Doctors/ListDocument.js";
+import ListAppointmentDoctor from "../component/Doctors/ListAppointmentDoctor.js";
 
 const PrivateDoctor = (props) => {
     const { store, actions } = useContext(Context);

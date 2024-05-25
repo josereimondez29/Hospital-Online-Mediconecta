@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import CardDoctor from "./CardDoctor";
-import { Context } from "../store/appContext";
+import CardDoctor from "./CardDoctor.js";
+import { Context } from "../store/appContext.js";
 import { Link } from "react-router-dom";
 
 export const AllDoctors =()=> {

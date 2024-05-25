@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.js";
 import { Link } from "react-router-dom";
 import iconDoctor from "../../img/doctorIcon.png"
 

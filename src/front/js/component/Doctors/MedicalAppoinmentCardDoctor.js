@@ -1,5 +1,5 @@
 import React, { useEffect, useContext, useState } from 'react';
-import { Context } from '../../store/appContext';
+import { Context } from '../../store/appContext.js';
 
 const MedicalAppointmentCardDoctor = ({ appointment }) => {
   const { id, appointment_date, doctor_id, patient_id, meeting, } = appointment; 

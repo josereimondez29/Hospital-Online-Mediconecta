@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
-import MedicalAppointmentCard from './MedicalAppointmentCard';
-import { Context } from '../../store/appContext';
+import MedicalAppointmentCard from './MedicalAppointmentCard.js';
+import { Context } from '../../store/appContext.js';
 
 const ListAppointmentPatient = () => {
   const [appointments, setAppointments] = useState([]);

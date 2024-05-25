@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useContext } from "react";
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.js";
 import { Link, useParams  } from "react-router-dom";
 
 const CardPatient = (props) => {

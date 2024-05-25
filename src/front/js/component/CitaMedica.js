@@ -1,10 +1,10 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import SpecialitySelection from './SpecialitySelection';
-import DoctorSelection from './DoctorSelection';
-import AvailabilityCalendar from './AvailabilityCalendar';
+import SpecialitySelection from './SpecialitySelection.js';
+import DoctorSelection from './DoctorSelection.js';
+import AvailabilityCalendar from './AvailabilityCalendar.js';
 import './../../styles/MedicalAppointment.css';
-import { Context } from '../store/appContext';
+import { Context } from '../store/appContext.js';
 
 const MedicalAppointment = () => {
   const navigate = useNavigate();
