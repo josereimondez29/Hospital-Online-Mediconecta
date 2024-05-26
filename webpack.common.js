@@ -1,10 +1,10 @@
-import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import Dotenv from 'dotenv-webpack';
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const currentDirectory = new URL('.', import.meta.url).pathname;
 
-export default {
+module.exports = {
   entry: [
     './src/front/js/index.js'
   ],
