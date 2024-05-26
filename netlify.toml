@@ -1,6 +1,9 @@
 [build]
-command = "pipenv install && pipenv run build"
+command = "pip install --upgrade pip && pip install pipenv && pipenv install && pipenv run start"
 publish = "build_directory"  # Cambia esto al directorio donde se publica tu app
 
 [context.production.environment]
-PYTHON_VERSION = "3.8"
+PYTHON_VERSION = "3.10"
+
+[build.environment]
+NETLIFY_VERBOSE = true
