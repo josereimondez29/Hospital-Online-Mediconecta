@@ -3,7 +3,7 @@ command = "pip install --upgrade pip && pip install -r requirements.txt && gunic
 publish = "build_directory"  # Cambia esto al directorio donde se publica tu app
 
 [context.production.environment]
-PYTHON_VERSION = "3.10"
+PYTHON_VERSION = "3.9"
 NETLIFY_VERBOSE = "true"
 
 
