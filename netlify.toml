@@ -1,8 +1,10 @@
 [build]
-command = "pip install --upgrade pip && pip install pipenv && pipenv install && pipenv run start"
+command = "pip install --upgrade pip && pip install -r requirements.txt && gunicorn -b 0.0.0.0:3001 wsgi:app"
 publish = "build_directory"  # Cambia esto al directorio donde se publica tu app
 
 [context.production.environment]
 PYTHON_VERSION = "3.10"
 NETLIFY_VERBOSE = "true"
+
+
 
