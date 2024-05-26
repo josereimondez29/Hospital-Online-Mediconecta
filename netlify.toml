@@ -1,0 +1,6 @@
+[build]
+command = "pipenv install && pipenv run build"
+publish = "build_directory"  # Cambia esto al directorio donde se publica tu app
+
+[context.production.environment]
+PYTHON_VERSION = "3.8"
