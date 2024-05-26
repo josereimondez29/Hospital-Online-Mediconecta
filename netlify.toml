@@ -4,6 +4,5 @@ publish = "build_directory"  # Cambia esto al directorio donde se publica tu app
 
 [context.production.environment]
 PYTHON_VERSION = "3.10"
+NETLIFY_VERBOSE = "true"
 
-[build.environment]
-NETLIFY_VERBOSE = true
