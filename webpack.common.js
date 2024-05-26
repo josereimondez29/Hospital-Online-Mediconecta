@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
-const currentDirectory = new URL('.', import.meta.url).pathname;
+const currentDirectory = __dirname;
 
 module.exports = {
   entry: [
@@ -51,3 +51,4 @@ module.exports = {
     new Dotenv({ safe: true, systemvars: true })
   ]
 };
+
